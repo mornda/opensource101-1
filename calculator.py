@@ -16,12 +16,17 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+# This function square two numbers
+def divide(x, y):
+    return x ** y
+
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+print("5.square")
 
 while True:
     # Take input from the user
@@ -42,6 +47,8 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
+        elif choice == '5':
+            print(num1, "**", num2, "=", square(num1,num2))
         break
     else:
         print("Invalid Input")
