@@ -17,7 +17,7 @@ def divide(x, y):
     return x / y
 
 # This function square two numbers
-def divide(x, y):
+def sequare(x, y):
     return x ** y
 
 
