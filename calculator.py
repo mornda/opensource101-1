@@ -30,9 +30,9 @@ print("5.square")
 
 while True:
     # Take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/4/5): ")
     # Check if choice is one of the four options
-    if choice in ('1', '2', '3', '4'):
+    if choice in ('1', '2', '3', '4','5'):
         num1 = float(input("Enter first number: "))
         num2 = float(input("Enter second number: "))
 
@@ -47,6 +47,7 @@ while True:
 
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
+            
         elif choice == '5':
             print(num1, "**", num2, "=", square(num1,num2))
         break
